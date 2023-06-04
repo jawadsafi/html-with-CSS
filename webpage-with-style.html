@@ -12,12 +12,23 @@
                 font-size: 200%;
             }
 
-            #green {
+            .green {
                 color: green;
             }
 
             .underlined {
                 text-decoration: underline;
+            }
+
+            #section-first {
+                color: blue;
+                background-color: pink;
+                text-align: center;
+            }
+
+            #section-second {
+                background-color: yellow;
+                width:50%;
             }
 
          
@@ -26,10 +37,13 @@
     </head>
 
     <body>
+        <div id="section-first">
+        <p>A friend in need is a friend indeed</p>
+        <p>Internal CSS is awesome!</p>
+        </div>
+        <div id="section-second">
+        <p class="green">Some more text. <span class="blue underlined">And this is underlined</span></p>
         <h1 class="blue">CSS is cool!</h1>
-        <p class="blue big">A friend in need is a friend indeed</p>
-        <p class="big">Internal CSS is awesome!</p>
-        <p id="green">Some more text. <span class="blue underlined">And this is underlined</span></p>
-
+    </div>
     </body>
 </html>
