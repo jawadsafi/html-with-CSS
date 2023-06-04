@@ -3,24 +3,33 @@
         <title>Webpage with Style</title>
 
         <style type="text/css">
+            .blue {
+                color: blue;
+                
+            }
 
-            p {
-                color: red;
+            .big {
                 font-size: 200%;
             }
 
-            h1 {
-                color: pink;
-                
+            #green {
+                color: green;
             }
+
+            .underlined {
+                text-decoration: underline;
+            }
+
+         
 
         </style>
     </head>
 
     <body>
-        <h1>CSS is cool!</h1>
-        <p>A friend in need is a friend indeed</p>
-        <p>Internal CSS is awesome!</p>
+        <h1 class="blue">CSS is cool!</h1>
+        <p class="blue big">A friend in need is a friend indeed</p>
+        <p class="big">Internal CSS is awesome!</p>
+        <p id="green">Some more text. <span class="blue underlined">And this is underlined</span></p>
 
     </body>
 </html>
